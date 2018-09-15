@@ -8,11 +8,11 @@ function triangle(){
 
  var triangleDesign = function(a, b, c){
    if (a===b && b===c && c===a) {
-     return "equilateral";
+     alert(return "equilateral");
    } else if (a===b || a===c || c===b) {
-     return "isosceles";
+     alert(return "isosceles");
    } else {
-     return "scalene";
+     alert(return "scalene");
    }
  };
 
