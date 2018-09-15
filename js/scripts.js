@@ -33,3 +33,7 @@ function triangle(){
             a = parseInt($("input#a").val(""));
             b = parseInt($("input#b").val(""));
             c = parseInt($("input#c").val(""));
+                $("#result").append(result);
+                event.preventDefault();
+              });
+            });
