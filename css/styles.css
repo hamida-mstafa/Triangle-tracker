@@ -8,12 +8,12 @@ body{
   margin-top: 50px;
   margin-bottom: 50px;
   background-color: black;
-  color: red;
+  color: blue;
 }
 h1{
   font-style: italic;
   font-family: "Gill Sans", sans-serif;
-  color: blue;
+  color: red;
 }
 #result{
   font-style: oblique;
