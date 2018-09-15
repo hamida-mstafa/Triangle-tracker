@@ -2,12 +2,12 @@
 #### Its a webpage that describes triangles, 2018/09/14
 #### By *Hamida Mstafa Mohamed*
 ## Description
-Its a webpage that shows different types of triangle and how the look like.
+Its a webpage that shows different types of triangle and how the look like.[Git](https://github.com/hamida-mstafa/Triangle-tracker.git)
 ## Installation Requirements
 Git
 ### Installation instruction
 ```
-[Git clone] (https://github.com/hamida-mstafa/Triangle-tracker.git)
+Git clone https://github.com/hamida-mstafa/Triangle-tracker.git
 
 ```
 ## Technologies used
