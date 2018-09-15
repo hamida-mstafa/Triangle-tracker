@@ -15,3 +15,7 @@ function triangle(){
      return "scalene";
    }
  };
+
+ var itsATriangle = function(a, b, c) {
+   return a <= (b + c) && b <= (c + a) && c <= (a + b)
+ };
