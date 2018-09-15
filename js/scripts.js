@@ -29,3 +29,7 @@ function triangle(){
         var b = parseInt($("input#b").val());
         var c = parseInt($("input#c").val());
         var result = triangle(a, b, c);
+
+            a = parseInt($("input#a").val(""));
+            b = parseInt($("input#b").val(""));
+            c = parseInt($("input#c").val(""));
