@@ -37,6 +37,7 @@
 //                 event.preventDefault();
 //               });
 //             });
+
 function triangles() {
   // console.log('clickes')
   var a = document.querySelector('#a').value;
@@ -46,7 +47,7 @@ function triangles() {
   if (a==b && b==c) {
   result.innerHTML = "This is an equilateral triangle");
   } else if (a==b || a==c || c==b) {
-    result.innerHTML = "This is an isosceles triangle";
+    alert(result.innerHTML = "This is an isosceles triangle");
   } else {
     result.innerHTML = "This is a scalene triangle";
   }
