@@ -23,3 +23,9 @@ function triangle(){
  var itsATriangle = function(a, b, c) {
    return a <= (b + c) && b <= (c + a) && c <= (a + b)
  };
+ $(document).ready(function() {
+  $("form#triangle").submit(function(event) {
+        var a = parseInt($("input#a").val());
+        var b = parseInt($("input#b").val());
+        var c = parseInt($("input#c").val());
+        var result = triangle(a, b, c);
