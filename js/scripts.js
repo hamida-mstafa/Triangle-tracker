@@ -46,10 +46,10 @@ function triangles() {
   var result = document.querySelector('#result')
 
   if (a==b && b==c) {
-  alert(result.innerHTML = "This is an equilateral triangle");
+    result.innerHTML = "This is an equilateral triangle";
   } else if (a==b || a==c || c==b) {
-    alert(result.innerHTML = "This is an isosceles triangle");
+    result.innerHTML = "This is an isosceles triangle";
   } else {
-    alert(result.innerHTML = "This is a scalene triangle");
+    result.innerHTML = "This is a scalene triangle";
   }
 }
