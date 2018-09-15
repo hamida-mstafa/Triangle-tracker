@@ -43,3 +43,11 @@ function triangles() {
   var b = document.querySelector('#b').value;
   var c = document.querySelector('#c').value;
   var result = document.querySelector('#result')
+  if (a==b && b==c) {
+  result.innerHTML = "This is an equilateral triangle");
+  } else if (a==b || a==c || c==b) {
+    result.innerHTML = "This is an isosceles triangle";
+  } else {
+    result.innerHTML = "This is a scalene triangle";
+  }
+}
