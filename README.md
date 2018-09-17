@@ -11,6 +11,13 @@ Git clone https://github.com/hamida-mstafa/Triangle-tracker.git
 
 ```
 [Git](https://github.com/hamida-mstafa/Triangle-tracker.git)
+## Behaviours
+|Behaviour   | Input     |  Output |
+|------------|:---------:|---------------------------------:|
+|Check if triangle is equilateral| 2, 2, 2|This is an equilateral triangle|
+|Check if triangle is isosceles |3, 6, 6 |This is an isosceles triangle  |
+|Check if triangle is scalene   |6, 5, 4 |This is a scalene triangle     |
+|Check if it is not a triangle  |1, 2, 3 |This is NOT a triangle         |
 ## Technologies used
 HTML
 CSS
