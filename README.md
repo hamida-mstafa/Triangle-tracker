@@ -3,6 +3,8 @@
 #### By *Hamida Mstafa Mohamed*
 ## Description
 Its a webpage that shows different types of triangle and how they look like.
+## Installation
+You use git clone to be able to download the documents in the github
 ## Installation Requirements
 Git
 ### Installation instruction
@@ -10,6 +12,7 @@ Git
 Git clone https://github.com/hamida-mstafa/Triangle-tracker.git
 
 ```
+# Live Link
 [Git](https://github.com/hamida-mstafa/Triangle-tracker.git)
 ## Behaviours
 |Behaviour   | Input     |  Output |
