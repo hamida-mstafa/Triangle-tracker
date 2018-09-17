@@ -8,11 +8,11 @@
 //
 //  var triangleDesign = function(a, b, c){
 //    if (a===b && b===c && c===a) {
-//      return "equilateral";
+//      alert(return "equilateral");
 //    } else if (a===b || a===c || c===b) {
-//      return "isosceles";
+//      alert(return "isosceles");
 //    } else {
-//      return "scalene";
+//      alert(return "scalene");
 //    }
 //  };
 //
@@ -38,23 +38,23 @@
 //               });
 //             });
 function triangles() {
-  // console.log('clickes')
-  var a = parseInt(document.querySelector('#a').value);
-  var b = parseInt(document.querySelector('#b').value);
-  var c = parseInt(document.querySelector('#c').value);
-  var result = document.querySelector('#result');
-  if (a==b && b==c) {
+    // console.log('clickes')
+  var a = document.querySelector('#a').value;
+  var b = document.querySelector('#b').value;
+  var c = document.querySelector('#c').value;
+  var result = document.querySelector('#result')
+
+if (a==b && b==c) {
     result.innerHTML = "This is an equilateral triangle";
-  } else if ((a+b)<=c || (b+c)<=a || (a+c)<=b) {
+} else if ((a+b)<=c || (b+c)<=a || (a+c)<=b) {
     result.innerHTML = "This is NOT a triangle";
-}
-  else if (a==b || a==c || c==b) {
+}else if (a==b || a==c || c==b) {
     result.innerHTML = "This is an isosceles triangle";
-  } else {
+} else {
     result.innerHTML = "This is a scalene triangle";
-  }
+}
 }
 
 function reload() {
-  location.reload();
+location.reload();
 }
