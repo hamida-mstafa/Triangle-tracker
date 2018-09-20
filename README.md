@@ -13,7 +13,7 @@ Git clone https://github.com/hamida-mstafa/Triangle-tracker.git
 
 ```
 # Live Link
-[Git](https://github.com/hamida-mstafa/Triangle-tracker.git)
+[Git](https://hamida-mstafa.github.io/Triangle-tracker/)
 ## Behaviours
 |Behaviour   | Input     |  Output |
 |------------|:---------:|---------------------------------:|
