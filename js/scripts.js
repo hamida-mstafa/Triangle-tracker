@@ -39,9 +39,9 @@
 //             });
 function triangles() {
     // console.log('clickes')
-  var a = document.querySelector('#a').value;
-  var b = document.querySelector('#b').value;
-  var c = document.querySelector('#c').value;
+  var a = parseInt(document.querySelector('#a').value);
+  var b = parseInt(document.querySelector('#b').value);
+  var c = parseInt(document.querySelector('#c').value);
   var result = document.querySelector('#result')
 
 if (a==b && b==c) {
